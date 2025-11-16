@@ -1,7 +1,4 @@
-/**
- * For more details on how to configure Wrangler, refer to:
- * https://developers.cloudflare.com/workers/wrangler/configuration/
- */
+
  {
     "$schema": "node_modules/wrangler/config-schema.json",
     "name": "navihive",
@@ -18,7 +15,7 @@
         {
             "binding": "DB",
             "database_name": "navigation-db-local",
-            "database_id": "968265bd-1ace-4b73-bd7c-077f43118eb3"
+            "database_id": "bf3bb28a-d0ab-44d5-8901-39febe36503a"
         }
     ],
     "vars": {
@@ -27,4 +24,5 @@
         "AUTH_PASSWORD": "Fcxzdqaq0927@",
         "AUTH_SECRET": "4307222HAJIMI0137FANCHENGXUANZICYARAON"
     }
+
 }
